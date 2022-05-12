@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>AJAX API</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/b689f6171c.js" crossorigin="anonymous"></script>
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <h3>
+        Consumiendo una API
+    </h3>
+    <hr>
+    <h6>Elija que datos desea ver (se mostrarán los 10 últimos precios registrados).</h6>
+
+    <div class="container">
+        <div class="section">
+            <a class="waves-effect waves-light btn-large dolar" id="dolar"><i class="fa-solid fa-dollar-sign">
+                    Dolar</i></a>
+            <a class="waves-effect waves-light btn-large uf" id="uf"><i class="fa-solid fa-building-columns"> U.F.</i></a>
+            <hr>
+        </div>
+        <div class="section ">
+            <p class="inline">Fecha</p>
+            <p class="inline precio">Precio</p>
+        </div>
+        <div class="section ">
+            <ul id="resultado"></ul>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

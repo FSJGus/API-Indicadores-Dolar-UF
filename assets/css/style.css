@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dolar {
+  background-color: crimson;
+}
+.uf {
+  background-color: darkgoldenrod;
+}
+
+.inline {
+  display: inline-block;
+  clear: both;
+  float: none;
+  text-decoration: underline;
+}
+.precio {
+    position: relative;
+    left: 40px;
+}
